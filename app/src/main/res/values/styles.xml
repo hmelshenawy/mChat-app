@@ -1,0 +1,42 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:fontFamily">@font/gabriel_weiss</item>
+        <item name="android:textColor">@color/mColor1</item>
+        <item name="actionMenuTextColor">@color/mColor</item>
+        <item name="colorButtonNormal">@color/mColor</item>
+        <item name="android:textSize">22dp</item>
+        <item name="actionBarTabStyle">@color/mColor</item>
+        <item name="android:colorBackground">@color/design5</item>
+        <item name="actionOverflowMenuStyle">@style/CMOptionsMenu</item>
+
+
+    </style>
+
+    <style name="CMOptionsMenu" parent="Widget.AppCompat.PopupMenu.Overflow">
+        <item name="android:popupBackground">@color/design1</item>
+    </style>
+
+    <style name="mThem" parent="Theme.AppCompat.DayNight">
+
+        <item name="android:fontFamily">@font/gabriel_weiss</item>
+        <item name="colorPrimary"></item>
+        <item name="android:textColor">@color/mColor</item>
+
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

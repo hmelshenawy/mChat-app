@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "666740504011",
+    "firebase_url": "https://mchatapp-7be7a.firebaseio.com",
+    "project_id": "mchatapp-7be7a",
+    "storage_bucket": "mchatapp-7be7a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:666740504011:android:47e9211a8f7719461df24e",
+        "android_client_info": {
+          "package_name": "com.haitham.mchatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "666740504011-60omjf9g62t5qeen9kk2tqpclumbjup0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.haitham.mchatapp",
+            "certificate_hash": "bd39466063ae0603fc495099845e36a11d71939b"
+          }
+        },
+        {
+          "client_id": "666740504011-m2mfhcj4hqttj18smiktms9drrfg9vrq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuC11xIZZMjT5AWq_9Q5Zt1I8N_kRP8Bc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "666740504011-m2mfhcj4hqttj18smiktms9drrfg9vrq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

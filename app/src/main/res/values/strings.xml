@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">mChatApp</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_group_chat">GroupChatActivity</string>
+    <string name="title_activity_find_friend">FindFriendActivity</string>
+    <string name="title_activity_friend_profile_">FriendProfile_Activity</string>
+    <string name="title_activity_chat">ChatActivity</string>
+</resources>

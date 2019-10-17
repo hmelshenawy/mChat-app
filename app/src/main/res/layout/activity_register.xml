@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <EditText
+        android:id="@+id/ed_Reg_user"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="250dp"
+        android:hint="Enter Email Address" />
+
+    <EditText
+        android:id="@+id/ed_reg_password"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_below="@+id/ed_Reg_user"
+        android:layout_marginTop="10dp"
+        android:hint="Enter Password" />
+
+    <Button
+        android:id="@+id/btn_reg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ed_reg_password"
+        android:layout_centerHorizontal="true"
+        android:onClick="create_User"
+        android:text=" Register " />
+</RelativeLayout>

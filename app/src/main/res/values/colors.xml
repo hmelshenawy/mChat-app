@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#A1D6E2</color>
+    <color name="colorPrimaryDark">#1995AD</color>
+    <color name="colorAccent">#BCBABE</color>
+    <color name="mColor1">#000000</color>
+    <color name="mColor">#949DC7</color>
+    <color name="color2">#B1A8A4</color>
+    <color name="green1">#DDB7E0B7</color>
+    <color name="blue">#716DF3</color>
+    <color name="trans">#00CFBDA5</color>
+
+    <color name="design1">#F1F1F2</color>
+    <color name="design2">#BCBABE</color>
+    <color name="design3">#A1D6E2</color>
+    <color name="design4">#1995AD</color>
+    <color name="design5">#F3ECDD</color>
+
+</resources>

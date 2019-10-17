@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.haitham.mchatapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ChatActivity"
+            android:label="@string/title_activity_chat"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.haitham.mchatapp.MainActivity" />
+        </activity>
+        <activity
+            android:name=".FriendProfile_Activity"
+            android:label="@string/title_activity_friend_profile_"
+            android:parentActivityName=".FindFriendActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.haitham.mchatapp.FindFriendActivity" />
+        </activity>
+        <activity
+            android:name=".FindFriendActivity"
+            android:label="@string/title_activity_find_friend"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.haitham.mchatapp.MainActivity" />
+        </activity>
+        <activity
+            android:name=".GroupChatActivity"
+            android:label="@string/title_activity_group_chat"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.haitham.mchatapp.MainActivity" />
+        </activity>
+        <activity android:name=".SettingActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name=".myNotificationBroadcast">
+            <intent-filter>
+                <action android:name="my.Custom.Action"></action>
+
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+</manifest>

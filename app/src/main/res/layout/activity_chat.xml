@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChatActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <include
+            android:id="@+id/toolbar3"
+            layout="@layout/m_toolbar_layout" />
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <ListView
+        android:id="@+id/listView_Chat"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/linear_Layout2"
+        android:layout_below="@id/appbar5"
+        android:background="@drawable/chat_background"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:stackFromBottom="true" />
+
+    <LinearLayout
+        android:id="@+id/linear_Layout2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="3dp"
+        android:background="@drawable/chat_background"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/ed_messageText2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/edittextback"
+            android:hint=" Type message here..." />
+
+        <ImageView
+            android:id="@+id/btn_groupSend2"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/circle"
+            android:onClick="send_message"
+            android:padding="5dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/icsend48"
+            android:text=""
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

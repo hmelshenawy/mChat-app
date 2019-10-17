@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <ProgressBar
+        android:id="@+id/Login_progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="invisible" />
+
+    <EditText
+        android:id="@+id/ed_Login_user"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="250dp"
+        android:hint="User Name"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/ed_Login_password"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_below="@+id/ed_Login_user"
+        android:layout_marginTop="10dp"
+        android:hint="Password"
+        android:inputType="textVisiblePassword" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ed_Login_password"
+        android:layout_centerHorizontal="true"
+        android:onClick="log_in_account"
+        android:text="Login" />
+
+    <TextView
+        android:id="@+id/tv_CreateAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_login"
+        android:layout_alignParentEnd="true"
+        android:onClick="register_Account"
+        android:text="Create new account"
+        android:textSize="18dp" />
+
+
+</RelativeLayout>
